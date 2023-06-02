@@ -37,11 +37,6 @@ header {
     color: #27187F;
 }
 
-.fa-magnifying-glass {
-    color: #758BFD;
-    font-size: 35px;
-}
-
 .search {
     display: flex;
     justify-content: end;
@@ -51,6 +46,11 @@ header {
     padding: 5px;
 }
 
+.fa-magnifying-glass {
+    color: #758BFD;
+    font-size: 35px;
+}
+
 /* section */
 
 .section {
@@ -58,7 +58,7 @@ header {
     flex-wrap: wrap;
     background-color: #DDEAF8;
     row-gap: 68px;
-    padding: 94px 0px 135px 98px;
+    padding: 94px 98px 135px 98px;
 }
 
 h2 {
@@ -76,11 +76,11 @@ h2 {
 }
 
 .box {
-    width: 28%;
-    padding: 33px 30px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    width: 32%;
+    padding: 33px 30px;
+    border-radius: 10px;
     row-gap: 33px;
     background-color: #FFFFFF;
 }
